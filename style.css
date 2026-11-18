@@ -1,0 +1,64 @@
+body {
+    background-color: #eeeaff;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 32px;
+    color: #333333;
+    font-size: 25px;
+}
+
+.name-box {
+    width: 320px;
+    height: 200px;
+    background-color: peachpuff;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    outline: none;
+    padding: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 55px;
+}
+
+.option h3 {
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.colors button {
+    width: 38px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.font-btn {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.font-btn:hover {
+    background-color: lightblue;
+}

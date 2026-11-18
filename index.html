@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brushify</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h2>BRUSHIFY</h2>
+
+    <div class="name-box" id="nameBox" contenteditable="true">
+        Welcome
+    </div>
+
+    <div class="options">
+
+        <!-- Box Color -->
+        <div class="option">
+            <h3>Box Color</h3>
+
+            <div class="colors">
+                <button style="background-color: lightblue;"
+                onclick="changeBox('lightblue')"></button>
+
+                <button style="background-color: lightgreen;"
+                onclick="changeBox('lightgreen')"></button>
+
+                <button style="background-color: pink;"
+                onclick="changeBox('pink')"></button>
+
+                <button style="background-color: lavender;"
+                onclick="changeBox('lavender')"></button>
+
+                <button style="background-color: peachpuff;"
+                onclick="changeBox('peachpuff')"></button>
+            </div>
+        </div>
+
+        <!-- Writing Color -->
+        <div class="option">
+            <h3>Writing Color</h3>
+
+            <div class="colors">
+                <button style="background-color: black;"
+                onclick="changeText('black')"></button>
+
+                <button style="background-color: purple;"
+                onclick="changeText('purple')"></button>
+
+                <button style="background-color: crimson;"
+                onclick="changeText('crimson')"></button>
+
+                <button style="background-color: blue;"
+                onclick="changeText('blue')"></button>
+
+                <button style="background-color: darkgreen;"
+                onclick="changeText('darkgreen')"></button>
+            </div>
+        </div>
+
+        <!-- Text Style -->
+        <div class="option">
+            <h3>Writing Style</h3>
+
+            <button class="font-btn"
+            onclick="changeFont('Georgia')">Georgia</button>
+
+            <button class="font-btn"
+            onclick="changeFont('Courier New')">Courier</button>
+
+            <button class="font-btn"
+            onclick="changeFont('Trebuchet MS')">Trebuchet</button>
+        </div>
+
+    </div>
+
+    <script>
+
+        function changeBox(color) {
+            document.getElementById("nameBox").style.backgroundColor = color;
+        }
+
+        function changeText(color) {
+            document.getElementById("nameBox").style.color = color;
+        }
+
+        function changeFont(font) {
+            document.getElementById("nameBox").style.fontFamily = font;
+        }
+
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+        
+
+
+
+    
+
+</body>
+</html>
